@@ -32,7 +32,7 @@ const Banner = () => {
                 >
                   <img src={slide} className="w-full max-h-[800px]" alt={`Slide ${index + 1}`} />
                   <div className="absolute bg-base-200 w-auto top-1/3 bg-opacity-45 ml-32 p-5 rounded-2xl">
-                    <h2 className="text-5xl">50% off in all <br />Buy Now</h2>
+                    <h2 className="lg:text-5xl">50% off in all <br />Buy Now</h2>
                   </div>
                 </div>
               ))}
