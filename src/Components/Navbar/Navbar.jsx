@@ -4,8 +4,8 @@ const Navbar = () => {
 
 
   return (
-    <div className=" items-center bg-base-200 rounded-xl border-1 relative -my-[670px] mx-4 bg-opacity-45">
-      <div className="navbar   ">
+    <div className=" items-center lg:w-5/6 bg-base-200 rounded-xl border-2 border-black absolute lg:mx-10  lg:-my-96  bg-opacity-45">
+      <div className="navbar ">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

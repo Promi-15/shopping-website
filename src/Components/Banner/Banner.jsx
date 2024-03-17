@@ -5,6 +5,8 @@
 
 import { useEffect } from "react"
 import { useState } from "react"
+import Products from "../Products/Products";
+import Navbar from "../Navbar/Navbar";
 
 // src="https://i.ibb.co/SwyWXkK/mostafa-meraji-X0y-Kd-R-F9r-M-unsplash.jpg"
 const Banner = () => {
@@ -22,15 +24,15 @@ const Banner = () => {
         return () => clearInterval(interval)
     },[slides.length]);
     return (
-        <div className="min-h-screen bg-base-200 m-4">
+        <div className="   border-blue ">
           <div className="text-center">
             <div className="carousel w-full rounded-xl">
               {slides.map((slide, index) => (
                 <div
                   key={index}
-                  className={`carousel-item relative w-full ${index === currentSlide ? '' : 'hidden'}`}
+                  className={`carousel-item  w-full ${index === currentSlide ? '' : 'hidden'}`}
                 >
-                  <img src={slide} className="w-full max-h-[800px]" alt={`Slide ${index + 1}`} />
+                  <img src={slide} className="w-full " alt={`Slide ${index + 1}`} />
                   <div className="absolute bg-base-200 w-auto top-1/3 bg-opacity-45 ml-32 p-5 rounded-2xl">
                     <h2 className="lg:text-5xl">50% off in all <br />Buy Now</h2>
                   </div>
@@ -38,6 +40,10 @@ const Banner = () => {
               ))}
             </div>
           </div>
+          <Navbar></Navbar>
+          {/* <div >
+          <Products></Products>
+          </div> */}
         </div>
       );
     };
