@@ -11,9 +11,9 @@ const Banner = () => {
     const [currentSlide,setCurrentSlide] = useState(0)
     const slides = [
         "https://i.ibb.co/wKKCxgM/smiling-student-hipster-woman-with-backpack-going-vacation.jpg",
-        "https://i.ibb.co/6wVXtQ7/marissa-grootes-D4j-Raha-Ua-Ic-unsplash.jpg",
-        "https://i.ibb.co/XVPgt11/erica-zhou-IHp-Ug-FDn7z-U-unsplash.jpg",
-        "https://i.ibb.co/SwyWXkK/mostafa-meraji-X0y-Kd-R-F9r-M-unsplash.jpg"
+        "https://i.ibb.co/HXMgr4d/bride-1486004-1280.jpg",
+        "https://i.ibb.co/M1HT3Jc/pexels-andrea-piacquadio-974911.jpg",
+        "https://i.ibb.co/Qv1mDQ4/boy-4798530-1280.jpg"
       ];
     useEffect(()=>{
         const interval =setInterval(()=>{
