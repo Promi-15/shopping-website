@@ -4,69 +4,95 @@
         "product_id": "D001",
         "price": 299,
         "short_description": "A stunning evening gown perfect for special occasions.",
-        "product_img": "https://i.ibb.co/27P1GS2/beautiful-woman-fancy-dress-walking-down-street-fashion-beauty-makeup-evening-dress-smiling-girl-pos.jpg"
+        "product_img": "https://i.ibb.co/YPZ3h0g/woman-1292792-1280.jpg",
+        "hover_img" :"https://i.ibb.co/nLQqSWm/woman-1840538-1280.jpg"
     },
     {
         "product_name": "Casual Summer Dress",
         "product_id": "D002",
         "price": 69,
         "short_description": "Light and airy dress, ideal for hot summer days.",
-        "product_img": "https://i.ibb.co/1Z98R1S/funny-smiling-hipster-handsome-man-guy-stylish-summer-cloth-street-sunglasses.jpg"
+        "product_img": "https://i.ibb.co/Qv1mDQ4/boy-4798530-1280.jpg",
+        "hover_img" :"https://i.ibb.co/DKMVsZQ/male-5321547-1280.jpg"
     },
     {
         "product_name": "Leather Shoulder Bag",
         "product_id": "B001",
         "price": 199,
         "short_description": "Classic leather shoulder bag, perfect for everyday use.",
-        "product_img": "https://i.ibb.co/phJBM7y/close-up-fashion-details-taupe-trendy-colors-woman-wearing-elegant-coat-floral-maxi-dress-crossbody.jpg"
+        "product_img": "https://i.ibb.co/ZYT8RpM/pocket-2397758-1280.jpg",
+        "hover_img" :"https://i.ibb.co/6ZbMzb2/traveler-2203666-1280-1.jpg"
     },
     {
         "product_name": "Chic Tote Bag",
         "product_id": "B002",
         "price": 149,
         "short_description": "Spacious tote bag with a modern design, great for work or shopping.",
-        "product_img": "https://i.ibb.co/xhGr3MN/white-tote-bag-basic-apparel-with-design-space.jpg"
+        "product_img": "https://i.ibb.co/gML6Wfz/traveler-2203666-1280.jpg",
+        "hover_img" :"https://i.ibb.co/Kzq7BTs/bag-6743886-1280.jpg"
     },
     {
         "product_name": "Formal Cocktail Dress",
         "product_id": "D003",
         "price": 159,
         "short_description": "Sophisticated cocktail dress for formal events and parties.",
-        "product_img": "https://i.ibb.co/HtgBP6M/fashion-photo-young-magnificent-woman-black-dress.jpg"
+        "product_img": "https://i.ibb.co/3vBJv6W/woman-7633843-1280.jpg",
+        "hover_img" :"https://i.ibb.co/r5hB5GK/woman-6626615-1280.jpg"
     },
     {
         "product_name": "Canvas Backpack",
         "product_id": "B003",
         "price": 79,
         "short_description": "Durable canvas backpack, perfect for students and travelers.",
-        "product_img": "https://i.ibb.co/wd98phK/teenager-waiting-with-backpack-hand-park.jpg"
+        "product_img": "https://i.ibb.co/wd98phK/teenager-waiting-with-backpack-hand-park.jpg",
+        "hover_img" :"https://i.ibb.co/SQpR2wM/mountaineering-455338-1280.jpg"
     },
     {
         "product_name": "Designer gown",
         "product_id": "B004",
         "price": 249,
         "short_description": "Luxurious designer gown, an essential accessory for evenings out.",
-        "product_img": "https://i.ibb.co/qBvCPwJ/r-n-tyfq-OL1-FAQc-unsplash.jpg"
+        "product_img": "https://i.ibb.co/qBvCPwJ/r-n-tyfq-OL1-FAQc-unsplash.jpg",
+        "hover_img" :"https://i.ibb.co/cL5c9GP/woman-5948756-1280.jpg"
     },
     {
         "product_name": "Floral Maxi Dress",
         "product_id": "D004",
         "price": 129,
         "short_description": "Beautiful floral print maxi dress, ideal for garden parties and weddings.",
-        "product_img": "https://i.ibb.co/9gkJgyV/edwin-andrade-Oo5s-Klg-IOZQ-unsplash.jpg"
+        "product_img": "https://i.ibb.co/9gkJgyV/edwin-andrade-Oo5s-Klg-IOZQ-unsplash.jpg",
+        "hover_img" :"https://i.ibb.co/5xXvspW/woman-6115105-1280.jpg"
     },
     {
         "product_name": "Crossbody Satchel",
         "product_id": "B005",
         "price": 119,
         "short_description": "Versatile crossbody satchel, perfect for everyday use or travel.",
-        "product_img": "https://i.ibb.co/XYd3rT1/kenny-eliason-6-G7rm-G8p-DCs-unsplash.jpg"
+        "product_img": "https://i.ibb.co/XYd3rT1/kenny-eliason-6-G7rm-G8p-DCs-unsplash.jpg",
+        "hover_img" :"https://i.ibb.co/6yv7rNh/bag-2717331-1280.jpg"
     },
     {
         "product_name": "Vintage Handbag",
         "product_id": "B006",
         "price": 179,
         "short_description": "Charming vintage handbag, adds a touch of retro flair to any outfit.",
-        "product_img": "https://i.ibb.co/D58d2C2/havva-yilmaz-7d-AITCXp1-VQ-unsplash.jpg"
+        "product_img": "https://i.ibb.co/D58d2C2/havva-yilmaz-7d-AITCXp1-VQ-unsplash.jpg",
+        "hover_img" :"https://i.ibb.co/zNNwf6s/businessman-1866582-1280.jpg"
+    },
+    {
+        "product_name": "Crossbody Satchel",
+        "product_id": "B005",
+        "price": 119,
+        "short_description": "Versatile crossbody satchel, perfect for everyday use or travel.",
+        "product_img": "https://i.ibb.co/XYd3rT1/kenny-eliason-6-G7rm-G8p-DCs-unsplash.jpg",
+        "hover_img" :"https://i.ibb.co/6yv7rNh/bag-2717331-1280.jpg"
+    },
+    {
+        "product_name": "Crossbody Satchel",
+        "product_id": "B005",
+        "price": 119,
+        "short_description": "Versatile crossbody satchel, perfect for everyday use or travel.",
+        "product_img": "https://i.ibb.co/XYd3rT1/kenny-eliason-6-G7rm-G8p-DCs-unsplash.jpg",
+        "hover_img" :"https://i.ibb.co/6yv7rNh/bag-2717331-1280.jpg"
     }
 ]
