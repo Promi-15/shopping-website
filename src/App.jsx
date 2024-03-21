@@ -11,8 +11,12 @@ function App() {
 
    const buyBtn = (product) =>{
     console.log(product)
-    const newCart = [...carts,product]
-    setCarts(newCart)
+    const alreadyAdded = carts.find(cart => cart.product_id === product.product_id)
+    if(!alreadyAdded){
+      const newCart = [...carts,product]
+      setCarts(newCart)
+    }
+    
    }
   return (
     <>
@@ -24,7 +28,7 @@ function App() {
      
        
        <div className='flex flex-col lg:flex-row tex'>
-       <Products buyBtn={buyBtn}></Products>
+       <Products buyBtn={buyBtn} carts = {carts}></Products>
        <Carts carts={ carts}></Carts>
        </div>
       

@@ -1,9 +1,11 @@
 import { useState } from "react";
 
 
-const Product = ({product,buyBtn}) => {
-    const {product_img,product_name,price,short_description,hover_img} =product
+const Product = ({product,buyBtn,carts}) => {
+    const {product_img,product_name,price,short_description,hover_img,product_id} =product
     const [hovered,setHovered] = useState(false)
+    
+    const alreadyAdded = carts.find(cart => cart.product_id === product_id)
   return (
     <div  className=" mx-4">
       <div className="card   bg-base-100 shadow-xl h-full border-2 " onMouseEnter={()=> setHovered(true)} onMouseLeave={()=> setHovered(false)} >
@@ -17,10 +19,11 @@ const Product = ({product,buyBtn}) => {
                 <div className="card-actions">
              
               
-              <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg bg-green-400" onClick={() => { buyBtn(product); document.getElementById('my_modal_1').showModal(); }}>Buy Now</button>
+              <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg bg-green-400" onClick={() => { buyBtn(product); document.getElementById('my_modal_1').showModal(); setHovered(false)}}>Buy Now</button>
               <dialog id="my_modal_1" className="modal">
+              {alreadyAdded ? "Added" : "Buy Now"}
                 <div className="modal-box">
-                  <h3 className="font-bold text-lg">Added</h3>
+                  <h3 className="font-bold text-lg">{ alreadyAdded ? 'No space' : ' added'}</h3>
                   <p className="py-4">Press ESC key or click the button below to close</p>
                   <div className="modal-action">
                     <form method="dialog">

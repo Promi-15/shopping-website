@@ -2,7 +2,9 @@
 import Cart from "./Cart"
 
 
+const regex1 = /\d+/;
 const Carts = ({carts}) => {
+   
     
   return (
 
@@ -12,6 +14,9 @@ const Carts = ({carts}) => {
         carts.map((cart,idx) => <Cart cart = {cart} key={idx}></Cart>)
       }
       <hr className="mt-10"/>
+      <div className="">
+       
+      </div>
     </div>
   )
 }
